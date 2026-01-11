@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "zongzimod:zongzi"
+  },
+  "result": {
+    "id": "zongzimod:zongzi_cooked"
+  },
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "zongzimod:zongzi_cooked"
+    },
+    "title": {
+      "text": "香喷喷的烤粽子"
+    },
+    "description": {
+      "text": "制作一个烤粽子"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "zongzimod:make_zongzi",
+  "criteria": {
+    "zongzi_cooked": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["zongzimod:zongzi_cooked"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}
