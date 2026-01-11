@@ -1,9 +1,17 @@
-# Fabric Example Mod
+ZongziMod - 我的世界 Fabric 粽子模组
 
-## Setup
+这是一个为 Minecraft Fabric 模组加载器开发的粽子模组。
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## 功能特点
+- 添加了粽子物品
+- 支持烹饪和食用
+- 多语言支持（中文/英文）
 
-## License
+## 安装方法
+1. 安装 Fabric Loader
+2. 将模组放入 mods 文件夹
+3. 启动游戏
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## 开发信息
+- 基于 Fabric Example Mod 开发
+- 支持 Minecraft 1.20
